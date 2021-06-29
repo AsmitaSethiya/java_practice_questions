@@ -10,7 +10,7 @@ public class Even_Odd
     	
         if(number % 2 == 0)
         {
-            System.out.println(number + "is a Even number");
+            System.out.println(number + " is a Even number");
         }
         else
         {
