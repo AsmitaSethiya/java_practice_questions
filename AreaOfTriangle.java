@@ -5,13 +5,17 @@ class AreaOfTriangle
 	{
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("Enter radius of circle: ");
+		System.out.print("Enter base of circle: ");
 		
-		int radius = in.nextInt();
+		int base = in.nextInt();
 		
-		float area = (float)(3.141 * radius * radius);
+		System.out.print("Enter height of traingle: ");
 		
-		System.out.println("Area of circle is: " + area);
+		int height = in.nextInt();
+		
+		double area = (base * height) / 2;
+		
+		System.out.println("Area of triangle is: " + area);
 		
 	}
 }
